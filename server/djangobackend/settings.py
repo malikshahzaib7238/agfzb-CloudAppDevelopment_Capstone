@@ -27,7 +27,7 @@ DEBUG = True
 
 APPEND_SLASH = True
 
-ALLOWED_HOSTS = ['localhost','<Your app URL>']
+ALLOWED_HOSTS = ['localhost','127.0.0.1']
 
 CSRF_TRUSTED_ORIGINS = ['<Your app URL>']
 
@@ -117,6 +117,8 @@ USE_I18N = True
 USE_L10N = True
 
 USE_TZ = True
+
+APPEND_SLASH=False
 
 
 # Static files (CSS, JavaScript, Images)
